@@ -4,7 +4,7 @@ const propiedad = "color"
 const balon_basket = {
     color: "naranja",
     peso: 1,
-    materiales: ["goma", "metal", "hilo", { color: "rojo" }],
+    materiales: ["goma", "metal", "hilo", { color: "azul" }],
     json: { color: "rojo", peso: 3 }
 }
 
@@ -14,3 +14,4 @@ console.log(saludo.textContent);
 
 console.log(balon_basket[propiedad])
 
+console.log(balon_basket.materiales[3].color)
